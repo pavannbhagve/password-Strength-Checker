@@ -31,7 +31,11 @@ input.addEventListener('input' , function () {
     output.style.color = "red";
  }else if (password.search(/[0-9]/) == -1){
 
-    output.innerText = "Password is missing a Number letter";
+    output.innerText = "Password is missing a Numaric letter";
+    output.style.color = "red";
+ }else if (password.search(/[!@#$%^&*()_+{}[]|\<>:;'".]/) == -1){
+
+    output.innerText = "Password is missing a Special Character ";
     output.style.color = "red";
  }else{
 
