@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #7569d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#password{
+width: 350;
+padding: 15px;
+font-size: 1.5rem;
+border-radius: 10px;
+background: antiquewhite;
+border-color: black;
+}
+    
+
+
